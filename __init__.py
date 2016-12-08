@@ -1,2 +1,2 @@
-__author__ "sweemeng"
+__author__ = "sweemeng"
 from behumble import *

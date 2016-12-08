@@ -7,6 +7,6 @@ setup(name='behumble',
       author='sweemeng',
       author_email='sweester@gmail.com',
       license='BSD',
-      packages=['behumble'],
+      packages=['.'],
       test_suite="tests",
       zip_safe=False)
