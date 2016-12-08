@@ -9,3 +9,8 @@ def test_strip_mrs():
     test_s = "Mrs Doubtfire"
     new_s = behumble.strip_honorific(test_s)
     assert new_s == "Doubtfire"
+
+def test_strip_miss():
+    s = "Miss Book"
+    new_s = behumble.strip_honorific(s)
+    assert new_s == "Book"
